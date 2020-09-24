@@ -17,6 +17,10 @@ a {
 	text-transform: uppercase;
 }
 
+i {
+	background-size: 20px 30px;
+}
+
 .wrapper {
 	padding: 40px 120px
 }
@@ -30,11 +34,14 @@ a {
 	position: fixed;
 	top: 20px;
 	right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .toggle-container img {
-	width: 50px;
-	height: 50px;
+	width: 32px;
+	height: 32px;
 	cursor: pointer;
 }
 
@@ -80,12 +87,12 @@ header {
 .menu ul {
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: center;
 	padding-top: 10px;
 }
 
 .menu ul li {
-	padding-left: 10px;
+	padding-left: 20px;
 }
 
 .hero {

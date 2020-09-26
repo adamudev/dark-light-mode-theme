@@ -14,11 +14,10 @@ a {
 	text-decoration: none;
 	color: #10455b;
 	font-weight: bold;
-	text-transform: uppercase;
 }
 
-i {
-	background-size: 20px 30px;
+li a {
+	text-transform: uppercase;
 }
 
 .wrapper {
@@ -89,10 +88,39 @@ header {
 	align-items: center;
 	justify-content: center;
 	padding-top: 10px;
+	position: relative;
 }
 
 .menu ul li {
 	padding-left: 20px;
+}
+
+ul {
+	position: absolute;
+}
+
+section {
+	padding: 30px 60px;
+	border-bottom: 2px solid #727272;
+}
+
+hover-liner{
+  width: 0;
+  height: 5px;
+  background: rgba(100,100,200,0);
+  //left: -50px;
+  top: 20px;
+  position: absolute;
+  -webkit-transition: 0.5s ease;
+}
+
+li{
+    -webkit-transition: 0.5s ease;
+    cursor: pointer;
+}
+
+li:hover{
+    text-shadow: 0px -2px 0px rgba(0,0,0,1), 0 0 5px rgba(255,255,255,0.8),0 -4px 15px rgba(255,255,255,0.5);
 }
 
 .hero {
@@ -112,3 +140,6 @@ header {
 	font-size: 40px;
 }
 
+footer p {
+	text-align: center;
+}
